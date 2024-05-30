@@ -1,0 +1,407 @@
+.body-section {
+    background-color: var(--bg);
+    font-family: var(--font);
+    color: white;
+}
+
+
+/* Header section start */
+
+.header-section {
+    padding: 40px 160px;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo-section{
+    display: flex;
+    align-items: center;
+    color: #f46b00;
+}
+
+
+.logo-section, .nav-bar {
+    width: 50%;
+}
+
+
+
+.nav-items {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 50px;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.nav-btn {
+    padding: 10px 40px;
+    background-color: var(--btn-bg);
+}
+
+/* Banner section start  */
+
+
+
+.banner-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.profile-img,.bio {
+    width: 50%;
+}
+
+.bio h2 {
+    text-transform: uppercase;
+}
+
+.name{
+    background: linear-gradient(90deg, rgba(186,11,249,1) 0%, rgba(144,193,68,1) 87%);
+    background-clip: text;
+    color: transparent;
+}
+
+.ctg {
+    color: var(--btn-bg);
+}
+
+.bio p {
+    color: var(--color);
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.skill {
+    display: flex;
+    gap: 20px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.skill h3 {
+    font-weight: 200;
+}
+
+.bio-btn {
+    outline: 1px solid var(--color);
+    display: inline-block;
+    outline-offset: 4px;
+    border-radius: 50px;
+    margin: 15px 0;
+}
+
+.first-btn {
+    background-color: var(--btn-bg);
+    border: none;
+    border-radius: 50px;
+    padding: 7px 22px;
+    color: white;
+}
+
+.second-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 7px 10px;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px;
+}
+
+.social-media a {
+    color: var(--color);
+}
+
+.profile-img {
+    display: flex;
+    justify-content: end;
+}
+
+.profile-img img {
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+}
+
+/* banner section end */
+
+/* header section end */
+
+
+
+/* poster design start*/
+
+.poster {
+    translate : 0px -110px;
+    /* background-color: wheat; */
+}
+
+.poster img {
+    width: 100%;
+}
+
+/* poster design end */
+
+
+
+/* main section start */
+
+
+
+/* about section start */
+
+.about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me,
+.exp-year {
+    width: 50%;
+}
+
+.about-me h2 {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.about-me p {
+    color: var(--color);
+    font-size: 12px;
+}
+
+.exp-year {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+.exp-year p {
+    font-size: 12px;
+    margin: -8px 0;
+}
+
+.star {
+    color: var(--btn-bg);
+    margin-bottom: 5px;
+}
+
+/* about section end */
+
+
+/* experience section start */
+
+.experience-section {
+    background: linear-gradient(270.16deg, rgba(255, 177, 71, 0.1) 5.74%, rgba(255, 108, 99, 0.1) 50.64%, rgba(184, 106, 223, 0.1) 92.05%);
+
+    display: flex;
+    padding: 80px 0;
+}
+
+.experience {
+    padding: 0 120px;
+}
+
+.experience h4 {
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.experience h2 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.exp-skill {
+    padding: 0 120px;
+}
+
+.exp-since {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exp-since h4 {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.exp-since p {
+    font-size: 12px;
+}
+
+.skill-1 h2, 
+.skill-2 h2,
+.skill-3 h2 {
+    text-transform: uppercase;
+    border-bottom: 1px solid var(--color);
+    padding-bottom: 10px;
+    
+}
+
+.skill-1,
+.skill-2,
+.skill-3 {
+    margin: 30px 0;
+}
+
+.experience,
+.exp-skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* experience section end */
+
+/* award section start */
+
+.award-desc {
+    text-align: center;
+}
+
+.award-desc h2 {
+    text-transform: uppercase;
+}
+
+.achieve {
+    background-color: black;
+    margin: 20px 0;
+    padding: 25px;
+}
+
+.award-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.award-heading h3 {
+    font-weight: normal;
+}
+
+.about-award p {
+    color: var(--color);
+    padding-right: 300px;
+}
+
+/* award section end */
+
+/* portfolio section start */
+
+.portfolio-head {
+    text-align: center;
+}
+
+.portfolio-head h2 {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.portfolio-head p {
+    font-size: 12px;
+    color: var(--color);
+    margin-bottom: 15px;
+}
+
+.common-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 6px;
+    text-transform: capitalize;
+}
+
+.active {
+    background-color: var(--btn-bg);
+    color: white;
+    border: none;
+    padding: 6px;
+    text-transform: capitalize;
+}
+
+.portfolio {
+    margin: 20px 0;
+}
+
+.project1,
+.project2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 25px 0;
+}
+
+.img-container img,
+.img-container2 img {
+    width: 520px;
+}
+
+.project-desc,
+.project-desc2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.project-desc h4 {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.project-desc h2 {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.project-desc p {
+    margin: 3px 0;
+}
+.project-desc p a{
+    text-decoration: none;
+    color: var(--btn-bg);
+}
+
+.img-container2 {
+    order: 2;
+}
+
+.project-desc2 {
+    order: 1;
+}
+
+
+/* portfolio section end */
+
+
+/* form section start */
+
+
+
+/* form section end */
+
+
+/* about section end */
