@@ -53,6 +53,7 @@
 
 .download {
     display: flex;
+    justify-content: end;
     align-items: center;
 }
 
@@ -128,7 +129,9 @@
     color: white;
     border: none;
     padding: 7px 10px;
+    border-radius: 50px ;
 }
+
 
 .social-media {
     display: flex;
