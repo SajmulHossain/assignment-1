@@ -24,13 +24,11 @@
 
 
 .logo-section, .nav-bar {
-    width: 50%;
+    width: 40%;
 }
 
 
-
 .nav-items {
-    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,9 +52,10 @@
 }
 
 .download {
-    margin-left: 10px;
-    /* margin-right: 10px; */
+    display: flex;
+    align-items: center;
 }
+
 
 /* nav section end */
 

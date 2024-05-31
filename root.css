@@ -42,20 +42,31 @@
     .nav-section {
         /* flex-direction: column; */
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(12,1fr);
         grid-template-rows: repeat(2,1fr);
+    }
+
+    .nav-items {
+        display: flex;
+        justify-content: space-between;
     }
 
     .nav-bar {
         /* flex-direction: column; */
         /* justify-content: space-between;
         gap: 10px; */
-
+        grid-column: 1/-1;
         grid-row: 2/3;
+        width: 100%;
     }
 
     .nav-btn {
-        padding: 5px 10px;
+        padding: 5px 13px;
+    }
+
+    .download {
+        grid-row: 1/2;
+        grid-column: 9/-1;
     }
 
 
