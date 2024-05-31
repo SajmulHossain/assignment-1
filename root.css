@@ -97,8 +97,8 @@
     }
 
     .skill {
-        /* gap: 10px; */
-        justify-content: center;
+        gap: 0;
+        justify-content: space-between;
     }
 
 
