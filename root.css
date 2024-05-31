@@ -140,4 +140,11 @@
     .img-container2 img {
         width: 100%;
     }
+
+
+    /* footer */
+
+    .nav-link ul {
+        gap : 5px;
+    }
 }
