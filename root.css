@@ -23,7 +23,7 @@
 }
 
 
-@media only screen and (max-width : 576px) and (min-width : 100px){
+@media only screen and (max-width : 576px) {
 
     .main-padding {
         padding: 0px;
