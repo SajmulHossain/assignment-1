@@ -23,10 +23,10 @@
 }
 
 
-@media only screen and (max-width : 576px) {
+@media only screen and (max-width : 576px) and (min-width:200px) {
 
     .main-padding {
-        padding: 0px;
+        padding: 25px 18px;
     }
 
     .half {
@@ -35,19 +35,27 @@
 
     /* header section */
 
-    .header-section {
-        padding: 0;
-    }
+
 
     /* nav section */
 
     .nav-section {
-        flex-direction: column;
+        /* flex-direction: column; */
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(2,1fr);
     }
 
-    .nav-items {
-        flex-direction: column;
-        justify-content: center;
+    .nav-bar {
+        /* flex-direction: column; */
+        /* justify-content: space-between;
+        gap: 10px; */
+
+        grid-row: 2/3;
+    }
+
+    .nav-btn {
+        padding: 5px 10px;
     }
 
 

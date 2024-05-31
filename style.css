@@ -7,9 +7,6 @@
 
 /* Header section start */
 
-.header-section {
-    padding: 40px 160px;
-}
 
 /* nav section start */
 
@@ -54,6 +51,11 @@
 .nav-btn {
     padding: 10px 40px;
     background-color: var(--btn-bg);
+}
+
+.download {
+    margin-left: 10px;
+    /* margin-right: 10px; */
 }
 
 /* nav section end */
