@@ -153,7 +153,6 @@
 
 .poster {
     translate : 0px -110px;
-    /* background-color: wheat; */
 }
 
 .poster img {
@@ -277,6 +276,10 @@
 
 /* award section start */
 
+.award-section {
+    margin-top: 45px;
+}
+
 .award-desc {
     text-align: center;
 }
@@ -399,9 +402,120 @@
 
 /* form section start */
 
+.form-sec-head {
+    text-align: center;
+}
 
+.form-sec-head h5 {
+    font-style: italic;
+    font-weight: normal;
+}
+
+.form-sec-head h2 {
+    text-transform: uppercase;
+}
+
+.main-form h2 {
+    text-transform: uppercase;
+}
+
+input[type = 'text'],input[type = 'email'], textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+    display: block;
+    width: 100%;
+}
+
+input[type = 'file'] {
+    display: none;
+}
+
+.file-label {
+    margin-top: 15px;
+    display: block;
+}
+
+.main-form {
+    background-color: #34261b;
+    padding: 40px 100px;
+}
+
+.name-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+::placeholder {
+    color: white;
+    text-transform: uppercase;
+    font-family: var(--font);
+}
+
+:focus {
+    outline: none;
+    color: white;
+}
+
+.main-form button {
+    color: white;
+    background-color: var(--btn-bg);
+    padding: 10px 20px;
+    margin-top: 30px;
+    border: none;
+    font-family: var(--font);
+}
 
 /* form section end */
 
 
 /* about section end */
+
+/* footer section start  */
+
+footer {
+    background-color: black;
+}
+
+.footer-design {
+    text-align: center;
+}
+
+.footer-design h2 {
+    padding-top: 70px;
+    margin: 30px 0;
+    color: var(--btn-bg);
+}
+
+.nav-link ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-link ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+
+.contact a{
+    color: var(--color);
+    margin: 40px 5px;
+    display: inline-block;
+}
+
+.copyright {
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+.copyright span {
+    color: var(--btn-bg);
+}
+
+/* footer section end */
