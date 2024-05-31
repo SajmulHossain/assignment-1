@@ -11,6 +11,8 @@
     padding: 40px 160px;
 }
 
+/* nav section start */
+
 .nav-section {
     display: flex;
     justify-content: space-between;
@@ -54,9 +56,13 @@
     background-color: var(--btn-bg);
 }
 
+/* nav section end */
+
+
+
+
+
 /* Banner section start  */
-
-
 
 .banner-section {
     display: flex;
@@ -165,8 +171,6 @@
 
 /* main section start */
 
-
-
 /* about section start */
 
 .about {
@@ -206,6 +210,8 @@
 }
 
 /* about section end */
+
+
 
 
 /* experience section start */
@@ -274,10 +280,12 @@
 
 /* experience section end */
 
+
+
 /* award section start */
 
 .award-section {
-    margin-top: 45px;
+    margin-top: 50px;
 }
 
 .award-desc {
@@ -312,7 +320,13 @@
 
 /* award section end */
 
+
+
 /* portfolio section start */
+
+.portfolio-section {
+    margin-top: 20px;
+}
 
 .portfolio-head {
     text-align: center;
@@ -326,7 +340,7 @@
 .portfolio-head p {
     font-size: 12px;
     color: var(--color);
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .common-button {
@@ -388,6 +402,11 @@
     color: var(--btn-bg);
 }
 
+.project-desc2 p a{
+    text-decoration: none;
+    color: var(--btn-bg);
+}
+
 .img-container2 {
     order: 2;
 }
@@ -396,8 +415,8 @@
     order: 1;
 }
 
-
 /* portfolio section end */
+
 
 
 /* form section start */
@@ -409,10 +428,12 @@
 .form-sec-head h5 {
     font-style: italic;
     font-weight: normal;
+    margin-bottom: 5px;
 }
 
 .form-sec-head h2 {
     text-transform: uppercase;
+    margin-bottom: 15px;
 }
 
 .main-form h2 {
@@ -423,7 +444,7 @@ input[type = 'text'],input[type = 'email'], textarea {
     background-color: transparent;
     border: none;
     border-bottom: 1px solid white;
-    padding: 10px 0;
+    padding: 8px 0;
     display: block;
     width: 100%;
 }
@@ -433,7 +454,7 @@ input[type = 'file'] {
 }
 
 .file-label {
-    margin-top: 15px;
+    margin-top: 5px;
     display: block;
 }
 
@@ -471,8 +492,9 @@ input[type = 'file'] {
 
 /* form section end */
 
+/* main section end */
 
-/* about section end */
+
 
 /* footer section start  */
 
@@ -504,7 +526,7 @@ footer {
 }
 
 .contact a{
-    color: var(--color);
+    color: #fff;
     margin: 40px 5px;
     display: inline-block;
 }
@@ -512,6 +534,7 @@ footer {
 .copyright {
     padding: 20px;
     text-transform: capitalize;
+    background-color: #121212;
 }
 
 .copyright span {

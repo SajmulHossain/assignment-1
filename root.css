@@ -21,3 +21,123 @@
 .half {
     width: 50%;
 }
+
+
+@media only screen and (max-width : 576px) {
+
+    .main-padding {
+        padding: 0px;
+    }
+
+    .half {
+        width: 100%;
+    }
+
+    /* header section */
+
+    .header-section {
+        padding: 0;
+    }
+
+    /* nav section */
+
+    .nav-section {
+        flex-direction: column;
+    }
+
+    .nav-items {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
+
+    /* banner section */
+
+    .profile-img,
+    .bio {
+        width: 100%;
+    }
+
+    .banner-section {
+        flex-direction: column;
+    }
+
+    .profile-img {
+        order: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .bio {
+        order: 2;
+    }
+
+
+    /* poster section */
+
+    .poster {
+        translate: 0 -20px;
+    }
+
+
+    /* about section */
+
+    .about {
+        flex-direction: column;
+        padding: 15px 20px;
+    }
+
+    .about-me,
+    .exp-year {
+        width: 100%;
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .exp-year {
+        align-items: center;
+        margin-top: 40px;
+    }
+
+
+    /* experience section */
+
+    .experience-section {
+        flex-direction: column;
+    }
+
+    .experience,
+    .exp-skill {
+        padding: 0;
+    }
+
+
+    /* award */
+
+    .about-award p {
+        padding: 0;
+    }
+
+
+    /* portfolio */
+
+    .portfolio {
+        flex-direction: column;
+    }
+
+    .project1,
+    .project2 {
+        flex-direction: column;
+    }
+
+    .img-container img,
+    .img-container2 img {
+        width: 100%;
+    }
+}
